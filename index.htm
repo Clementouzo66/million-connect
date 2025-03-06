@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>million connect</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="page1">
+        <nav>
+            <button type="button" onclick="toggledark()" id="darken"><span></span></button>
+        </nav>
+        <div class="form">
+            <h1>CYBERSECURITY</h1>
+            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+            <form id="signup-form">
+                <label for="name">Name</label>
+                <input type="name" id="name" placeholder="Name:" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email:" required>
+                <label for="phone">Phone</label>
+                <input type="phone" id="phone" placeholder="phone:" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password:" required>
+                <label for="confirm password">Confirm Password</label>
+                <input type="password" id="confirm password" placeholder="Comfirm password:" required>
+                <div class="g-recaptcha" data-sitekey="6Ld_YusqAAAAAP8yjQ2ddxIRn0uZZboBHicV-Icc"></div>
+                <button type="submit" class="btn"><a href="#"><b>SIGN-UP</b></a></button>
+                <button class="google">
+                    <img src="files/google image2.jpg" alt=""width="50px"height="40px"><a href="">Sign-up with google</a>
+                </button>
+                <div class="p">
+                <p>Already have an account?<strong><a href="index.html">Login</a></strong></p>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

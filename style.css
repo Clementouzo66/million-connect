@@ -1,0 +1,165 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #000;
+}
+.darks {
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+body {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+
+}
+
+
+button {
+    cursor: pointer;
+    background: #a5acb9;
+    height: 30px;
+    width: 60px;
+    border-radius: 22px;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    transition: background 0.4s;
+}
+button span {
+    background: #222121;
+    display: block;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 3px;
+    transition: background 0.4s, margin-left 0.4s;
+}
+.active {
+    background: green;
+}
+.active span {
+    background: #f0e9e9;
+    margin-left: 35px;
+}
+.container{
+    background: var(--primary-color);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+
+
+.form{
+    width: 550px;
+    height: 700px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    border-radius: 40px;
+    padding: 25px;
+    align-self: center;
+    align-items: center;
+    margin: 10% auto;
+    margin-top: 25px;
+}
+.form h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    background-color: black;
+    border-radius: 15px;
+    margin-bottom: 120px;   
+    padding: 5px;
+}
+.form h1:hover{
+color: blue;
+}
+
+
+input{
+    border: solid 3px  #a54e17;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 105px;
+    margin-bottom: -10px;
+    color: bisque;
+}
+form{
+    margin-top: 80px;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #000;
+    font-family: Arial;
+}
+
+
+.google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 45px;
+    border-radius: 8px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-bottom: -20PX;
+    font-size: 20px;
+}
+.google a{
+    color: #fff;
+}
+.google a:hover{
+    color:blueviolet
+}
+
+
+.btn{
+    width: 240px;
+    height: 50px;
+    background: black;
+    border: none;
+    margin-top: 80px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 140px;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    background: #ff7200;   
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.btn a:hover{
+    color: #000;
+}
+.p a{
+    color: rgb(10, 10, 204);
+    font-size: 25px;
+}
+.p{
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+
+
